@@ -2,7 +2,7 @@
 This is the code for IFAC Symposium on System Identification 2024. The description for the LASA data set can be found at https://ww2.mathworks.cn/help/deeplearning/ug/maglev-modeling.html, while the neural network approximation of its dynamics is at https://github.com/xiangweiming/ignnv.
 
 # Related tools and software
-This toolbox makes use of IGNNV (at:https://github.com/xiangweiming/ignnv) for reachability analysis; UPPAAL 5.0 (at: https://uppaal.org/)) for LTL specification verification.
+This toolbox makes use of IGNNV (at:https://github.com/xiangweiming/ignnv) and NNV (at: https://github.com/verivital/nnv) for reachability analysis.
 
 # Setup
 1. MATLAB pre-installed is required.
