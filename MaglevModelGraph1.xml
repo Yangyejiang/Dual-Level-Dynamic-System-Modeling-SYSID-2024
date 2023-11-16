@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<nta>
+  <declaration>// Place global declarations here.
+clock x;</declaration>
+  <template>
+    <name x="5" y="5">Template</name>
+    <location id="id0" x="101" y="101">
+      <name x="118" y="76">id0</name>
+      <label kind="invariant" x="102" y="116">x&lt;=3</label>
+    </location>
+    <location id="id1" x="101" y="197">
+      <name x="118" y="172">id1</name>
+      <label kind="invariant" x="102" y="212">x&lt;=3</label>
+    </location>
+    <location id="id2" x="101" y="293">
+      <name x="118" y="268">id2</name>
+      <label kind="invariant" x="102" y="308">x&lt;=3</label>
+    </location>
+    <location id="id3" x="101" y="389">
+      <name x="118" y="364">id3</name>
+      <label kind="invariant" x="102" y="404">x&lt;=3</label>
+    </location>
+    <location id="id4" x="101" y="485">
+      <name x="118" y="460">id4</name>
+      <label kind="invariant" x="102" y="500">x&lt;=3</label>
+    </location>
+    <location id="id5" x="197" y="101">
+      <name x="214" y="76">id5</name>
+      <label kind="invariant" x="198" y="116">x&lt;=3</label>
+    </location>
+    <location id="id6" x="197" y="197">
+      <name x="214" y="172">id6</name>
+      <label kind="invariant" x="198" y="212">x&lt;=3</label>
+    </location>
+    <location id="id7" x="197" y="293">
+      <name x="214" y="268">id7</name>
+      <label kind="invariant" x="198" y="308">x&lt;=3</label>
+    </location>
+    <location id="id8" x="197" y="389">
+      <name x="214" y="364">id8</name>
+      <label kind="invariant" x="198" y="404">x&lt;=3</label>
+    </location>
+    <location id="id9" x="197" y="485">
+      <name x="214" y="460">id9</name>
+      <label kind="invariant" x="198" y="500">x&lt;=3</label>
+    </location>
+    <location id="id10" x="293" y="101">
+      <name x="310" y="76">id10</name>
+      <label kind="invariant" x="294" y="116">x&lt;=3</label>
+    </location>
+    <location id="id11" x="293" y="197">
+      <name x="310" y="172">id11</name>
+      <label kind="invariant" x="294" y="212">x&lt;=3</label>
+    </location>
+    <location id="id12" x="293" y="293">
+      <name x="310" y="268">id12</name>
+      <label kind="invariant" x="294" y="308">x&lt;=3</label>
+    </location>
+    <location id="id13" x="293" y="389">
+      <name x="310" y="364">id13</name>
+      <label kind="invariant" x="294" y="404">x&lt;=3</label>
+    </location>
+    <location id="id14" x="293" y="485">
+      <name x="310" y="460">id14</name>
+      <label kind="invariant" x="294" y="500">x&lt;=3</label>
+    </location>
+    <location id="id15" x="389" y="101">
+      <name x="406" y="76">id15</name>
+      <label kind="invariant" x="390" y="116">x&lt;=3</label>
+    </location>
+    <location id="id16" x="389" y="197">
+      <name x="406" y="172">id16</name>
+      <label kind="invariant" x="390" y="212">x&lt;=3</label>
+    </location>
+    <location id="id17" x="389" y="293">
+      <name x="406" y="268">id17</name>
+      <label kind="invariant" x="390" y="308">x&lt;=3</label>
+    </location>
+    <location id="id18" x="389" y="389">
+      <name x="406" y="364">id18</name>
+      <label kind="invariant" x="390" y="404">x&lt;=3</label>
+    </location>
+    <location id="id19" x="389" y="485">
+      <name x="406" y="460">id19</name>
+      <label kind="invariant" x="390" y="500">x&lt;=3</label>
+    </location>
+    <location id="id20" x="485" y="101">
+      <name x="502" y="76">id20</name>
+      <label kind="invariant" x="486" y="116">x&lt;=3</label>
+    </location>
+    <location id="id21" x="485" y="197">
+      <name x="502" y="172">id21</name>
+      <label kind="invariant" x="486" y="212">x&lt;=3</label>
+    </location>
+    <location id="id22" x="485" y="293">
+      <name x="502" y="268">id22</name>
+      <label kind="invariant" x="486" y="308">x&lt;=3</label>
+    </location>
+    <location id="id23" x="485" y="389">
+      <name x="502" y="364">id23</name>
+      <label kind="invariant" x="486" y="404">x&lt;=3</label>
+    </location>
+    <location id="id24" x="485" y="485">
+      <name x="502" y="460">id24</name>
+      <label kind="invariant" x="486" y="500">x&lt;=3</label>
+    </location>
+    <init ref="id0"/>
+    <transition>
+      <source ref="id0"/>
+      <target ref="id0"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id0"/>
+      <target ref="id3"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id0"/>
+      <target ref="id6"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id0"/>
+      <target ref="id9"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id1"/>
+      <target ref="id1"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id1"/>
+      <target ref="id7"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id2"/>
+      <target ref="id0"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id2"/>
+      <target ref="id2"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id2"/>
+      <target ref="id8"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id2"/>
+      <target ref="id9"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id3"/>
+      <target ref="id3"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id3"/>
+      <target ref="id6"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id4"/>
+      <target ref="id4"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id4"/>
+      <target ref="id20"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id4"/>
+      <target ref="id24"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id5"/>
+      <target ref="id1"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id5"/>
+      <target ref="id5"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id5"/>
+      <target ref="id10"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id5"/>
+      <target ref="id18"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id6"/>
+      <target ref="id15"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id7"/>
+      <target ref="id1"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id7"/>
+      <target ref="id7"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id7"/>
+      <target ref="id8"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id7"/>
+      <target ref="id14"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id8"/>
+      <target ref="id2"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id8"/>
+      <target ref="id7"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id8"/>
+      <target ref="id8"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id8"/>
+      <target ref="id9"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id8"/>
+      <target ref="id14"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id8"/>
+      <target ref="id15"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id9"/>
+      <target ref="id0"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id9"/>
+      <target ref="id6"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id9"/>
+      <target ref="id8"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id9"/>
+      <target ref="id9"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id9"/>
+      <target ref="id15"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id10"/>
+      <target ref="id10"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id10"/>
+      <target ref="id18"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id10"/>
+      <target ref="id22"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id11"/>
+      <target ref="id4"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id11"/>
+      <target ref="id11"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id11"/>
+      <target ref="id19"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id11"/>
+      <target ref="id24"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id12"/>
+      <target ref="id10"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id13"/>
+      <target ref="id5"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id14"/>
+      <target ref="id21"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id15"/>
+      <target ref="id14"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id16"/>
+      <target ref="id5"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id16"/>
+      <target ref="id13"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id16"/>
+      <target ref="id16"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id16"/>
+      <target ref="id18"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id17"/>
+      <target ref="id10"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id17"/>
+      <target ref="id22"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id18"/>
+      <target ref="id5"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id18"/>
+      <target ref="id10"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id18"/>
+      <target ref="id16"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id18"/>
+      <target ref="id18"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id19"/>
+      <target ref="id11"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id19"/>
+      <target ref="id19"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id19"/>
+      <target ref="id23"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id19"/>
+      <target ref="id24"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id20"/>
+      <target ref="id12"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id20"/>
+      <target ref="id23"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id21"/>
+      <target ref="id1"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id21"/>
+      <target ref="id21"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id22"/>
+      <target ref="id16"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id22"/>
+      <target ref="id18"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id23"/>
+      <target ref="id10"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id23"/>
+      <target ref="id12"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id23"/>
+      <target ref="id17"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id24"/>
+      <target ref="id20"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+    <transition>
+      <source ref="id24"/>
+      <target ref="id23"/>
+      <label kind="assignment">x:=0</label>
+    </transition>
+  </template>
+  <system>// Place template instantiations here.
+P1 = Template();  
+// List one or more processes to be composed into a system.
+system P1;</system>
+  <queries>
+    <query>
+      <formula>E&lt;&gt;P1.id0</formula>
+      <comment>can the model check tool work?</comment>
+    </query>
+    <query>
+      <formula>A&lt;&gt;(P1.id11 or P1.id13 or P1.id6 or P1.id18 or P1.id19 or P1.id12 or P1.id27 or P1.id28 or P1.id20 )</formula>
+      <comment>Is it stable?</comment>
+    </query>
+  </queries>
+</nta>
