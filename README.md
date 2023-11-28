@@ -17,13 +17,13 @@ This toolbox makes use of IGNNV (at:https://github.com/xiangweiming/ignnv) and N
 This toolbox will automatically generate a dual-level learning model for the LASA data set.\
 
 1. ME partitioning\
-![image](https://github.com/aicpslab/Dual-Level-Dynamic-System-Modeling-SYSID-2024/blob/main/Results/Multi_Models_2_MEnDATA.pdf)
+![image](https://github.com/aicpslab/Dual-Level-Dynamic-System-Modeling-SYSID-2024/blob/main/Results/png/6.JShape_SamplesPartitionsFig.png)
 
 2. Merging\
-![image](https://github.com/aicpslab/Dual-Level-Dynamic-System-Modeling-SYSID-2024/blob/main/Results/Multi_Models_2_Merging.pdf)
+![image](https://github.com/aicpslab/Dual-Level-Dynamic-System-Modeling-SYSID-2024/blob/main/Results/png/6.JShape_Merge.png)
 
 3. Obtaining Transition System Cells\
-![image](https://github.com/aicpslab/Dual-Level-Dynamic-System-Modeling-SYSID-2024/blob/main/Results/Multi_Models_2_Abstraction.pdf).
+![image](https://github.com/aicpslab/Dual-Level-Dynamic-System-Modeling-SYSID-2024/blob/main/Results/png/6.JShape_AbstractionPartitions.png).
 
 4. Transition Map\
- ![image](https://github.com/aicpslab/Dual-Level-Dynamic-System-Modeling-SYSID-2024/blob/main/Results/Multi_Models_2_Transition.pdf).  
+ ![image](https://github.com/aicpslab/Dual-Level-Dynamic-System-Modeling-SYSID-2024/blob/main/Results/png/6.JShape_AbstractionMap.png).  
