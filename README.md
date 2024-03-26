@@ -1,5 +1,5 @@
 # Dual-Level-Dynamic-System-Modeling-MECC-2024
-This is the code for IFAC Symposium on System Identification 2024. The description for the LASA data set can be found at https://cs.stanford.edu/people/khansari/download.html, while the neural network approximation of its dynamics is at https://github.com/xiangweiming/ignnv.
+This is the code for the 2024 Modeling, Estimation and Control Conference. The description for the LASA data set can be found at https://cs.stanford.edu/people/khansari/download.html, while the neural network approximation of its dynamics is at https://github.com/xiangweiming/ignnv.
 
 # Related tools and software
 This toolbox makes use of IGNNV (at:https://github.com/xiangweiming/ignnv) and NNV (at: https://github.com/verivital/nnv) for reachability analysis.
