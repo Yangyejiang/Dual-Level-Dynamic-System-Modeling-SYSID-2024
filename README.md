@@ -6,7 +6,7 @@ This toolbox makes use of IGNNV (at:https://github.com/xiangweiming/ignnv) and N
 
 # Setup
 1. MATLAB pre-installed is required.
-2. Add the folder "Dual-Level-Dynamic-System-Modeling-SYSID-2024" to the MATLAB workpath.
+2. Add the folder "Dual-Level-Dynamic-System-Modeling-MECC-2024" to the MATLAB workpath.
 
 # Running tests and examples
 
