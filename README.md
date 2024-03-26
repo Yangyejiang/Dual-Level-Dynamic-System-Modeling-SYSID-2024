@@ -1,4 +1,4 @@
-# Dual-Level-Dynamic-System-Modeling-SYSID-2024
+# Dual-Level-Dynamic-System-Modeling-MECC-2024
 This is the code for IFAC Symposium on System Identification 2024. The description for the LASA data set can be found at https://cs.stanford.edu/people/khansari/download.html, while the neural network approximation of its dynamics is at https://github.com/xiangweiming/ignnv.
 
 # Related tools and software
