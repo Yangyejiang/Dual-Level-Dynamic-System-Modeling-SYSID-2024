@@ -10,8 +10,8 @@ This toolbox makes use of IGNNV (at:https://github.com/xiangweiming/ignnv) and N
 
 # Running tests and examples
 
-1. Open .../Dual-Level-Dynamic-System-Modeling-SYSID-2024/Runtest.mlx with MATLAB to execute the scripts for a test run of the angle example.
-2. Open .../Dual-Level-Dynamic-System-Modeling-SYSID-2024/RuntestLoopandForms.mlx with MATLAB to execute the scripts for a test run of the ALL lasa examples and generate forms and graphs in Dual-Level-Dynamic-System-Modeling-SYSID-2024/SaveFigure.
+1. Open .../Dual-Level-Dynamic-System-Modeling-MECC-2024/Runtest.mlx with MATLAB to execute the scripts for a test run of the angle example.
+2. Open .../Dual-Level-Dynamic-System-Modeling-MECC-2024/RuntestLoopandForms.mlx with MATLAB to execute the scripts for a test run of the ALL lasa examples and generate forms and graphs in Dual-Level-Dynamic-System-Modeling-SYSID-2024/SaveFigure.
 
 # Features
 This toolbox will automatically generate a dual-level learning model for the LASA data set.
